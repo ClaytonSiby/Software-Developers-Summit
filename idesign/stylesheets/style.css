@@ -16,21 +16,28 @@ body {
   .social-nav .nav-link {
     color: #fff !important;
     font-family: "Nanum Gothic", sans-serif;
-    font-size: 0.9rem; }
+    font-size: 1.2rem;
+    padding: 0 0.7rem !important; }
+  @media screen and (max-width: 768px) {
+    .social-nav {
+      display: none !important; } }
 
 .main-nav {
   height: 5.5rem; }
-  .main-nav .nav-link {
-    padding: .5rem 1.5rem !important;
-    color: #d3d3d3; }
   .main-nav .navbar-brand {
     display: block;
     height: 100%; }
     .main-nav .navbar-brand img {
       height: 100% !important; }
-  .main-nav .active {
+  .main-nav .navbar-toggler-icon .fa-bars {
+    font-size: 1.5rem !important; }
+  .main-nav .navbar-nav .nav-link {
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 600;
+    color: #d3d3d3; }
+  .main-nav .navbar-nav .active {
     color: #ec5242; }
-  .main-nav .join {
-    border: 2px solid #ec5242; }
+  .main-nav .navbar-nav .join {
+    border: 3px solid #ec5242; }
 
 /*# sourceMappingURL=style.css.map */

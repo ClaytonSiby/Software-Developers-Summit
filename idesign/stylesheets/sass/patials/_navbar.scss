@@ -1,20 +1,21 @@
 .social-nav {
-    background: items-color !important;
-    height: 2rem;
+  background: items-color !important;
+  height: 2rem;
 
-    .nav-link {
-        color: $light-color !important;
-        font-family: $main-font;
-        font-size: $small-text;
-    }
+  .nav-link {
+    color: $light-color !important;
+    font-family: $main-font;
+    font-size: $mid-text;
+    padding: 0 0.7rem !important;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
 }
 
 .main-nav {
   height: 5.5rem;
-  .nav-link {
-      padding: .5rem 1.5rem !important;
-      color: $default-color;
-  }
   .navbar-brand {
     display: block;
     height: 100%;
@@ -23,11 +24,25 @@
     }
   }
 
-  .active {
-      color: $highlight-color;
+  .navbar-toggler-icon {
+    .fa-bars {
+      font-size: $large-text !important;
+    }
   }
 
-  .join {
-      border: 2px solid $highlight-color;
+  .navbar-nav {
+    .nav-link {
+      padding: 0.5rem 1.5rem !important;
+      font-weight: 600;
+      color: $default-color;
+    }
+
+    .active {
+      color: $highlight-color;
+    }
+
+    .join {
+      border: 3px solid $highlight-color;
+    }
   }
 }
