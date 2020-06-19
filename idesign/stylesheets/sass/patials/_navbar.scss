@@ -1,0 +1,33 @@
+.social-nav {
+    background: items-color !important;
+    height: 2rem;
+
+    .nav-link {
+        color: $light-color !important;
+        font-family: $main-font;
+        font-size: $small-text;
+    }
+}
+
+.main-nav {
+  height: 5.5rem;
+  .nav-link {
+      padding: .5rem 1.5rem !important;
+      color: $default-color;
+  }
+  .navbar-brand {
+    display: block;
+    height: 100%;
+    img {
+      height: 100% !important;
+    }
+  }
+
+  .active {
+      color: $highlight-color;
+  }
+
+  .join {
+      border: 2px solid $highlight-color;
+  }
+}
