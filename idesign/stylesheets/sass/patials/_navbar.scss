@@ -15,10 +15,10 @@
 }
 
 .main-nav {
-  height: 5.5rem;
+  
   .navbar-brand {
     display: block;
-    height: 100%;
+    height: 5.5rem;
     img {
       height: 100% !important;
     }
@@ -34,7 +34,7 @@
     .nav-link {
       padding: 0.5rem 1.5rem !important;
       font-weight: 600;
-      color: $default-color;
+      color: $items-color;
     }
 
     .active {
