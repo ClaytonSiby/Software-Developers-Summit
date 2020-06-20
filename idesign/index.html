@@ -19,70 +19,72 @@
     <link rel="stylesheet" href="/idesign/stylesheets/style.css" />
   </head>
   <body>
-    <nav
-      class="container-fluid navbar navbar-expand-sm justify-content-end social-nav bg-dark navbar-dark"
-    >
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
-        </li>
-      </ul>
-    </nav>
-    <nav class="navbar container-fluid navbar-expand-lg main-nav sticky-top">
-      <a class="navbar-brand" href="#"
-        ><img
-          src="images/new_summit_logo.PNG"
-          class="img-fluid img-responsive"
-          alt="image logo"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
+    <div class="container-fluid p-0" id="main-wrapper">
+      <nav
+        class="container-fluid navbar navbar-expand-sm justify-content-end social-nav bg-dark navbar-dark"
       >
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
+            <a href="#" class="nav-link"><i class="fab fa-facebook-f"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a href="#" class="nav-link"><i class="fab fa-twitter"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="tickets.html">Tickets</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#speakers">Speakers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item join">
-            <a class="nav-link" href="#">Register</a>
+            <a href="#" class="nav-link"><i class="fab fa-linkedin-in"></i></a>
           </li>
         </ul>
-      </div>
-    </nav>
-
-    <div class="container-fluid p-0" id="main-wrapper">
+      </nav>
+      <nav class="navbar container-fluid navbar-expand-lg main-nav sticky-top">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/new_summit_logo.PNG"
+            class="img-fluid img-responsive"
+            alt="image logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span><i class="fas fa-bars"></i></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tickets.html">Tickets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#speakers">Speakers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item join">
+              <a class="nav-link" href="#">Register</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="hero p-0 m-0 border-top">
         <div class="fullscreen-video-wrap">
           <video autoplay muted loop id="heroVideo" class="hero-Video">
-            <source src="videos/hero.mp4" type="video/mp4" />
+            <source src="videos/background_vid.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="hero-overlay"></div>
@@ -91,7 +93,8 @@
           <h4>Nov 29 - Dec 2 (16hr)</h4>
           <p>@Montecasino Bolevad Business Center.</p>
           <p class="hero-text py-3 px-1 mt-4 border">
-            Join Us as we discuss the technical skills for the 21st century.
+            Join the world's biggest tech community as we discuss the future of
+            Software Development.
           </p>
         </div>
       </div>
@@ -102,34 +105,94 @@
           <h2 class="text-center">Main Program</h2>
           <div class="underline text-center"></div>
         </div>
-        <div class="col-12 row main-program mt-5">
-          <div class="program col-ms-12 col-md-12 col-lg-3">
-            <div class="card py-3">
-              <div class="card-image-top text-center py-3">
-                <i class="fas fa-laptop-code"></i>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Web Development</h3>
-                <p class="card-text">
-                  Enhance your web development skills. Learn from experts & most
-                  talented developers.
-                </p>
-              </div>
+        <div class="col-12 main-program mt-5">
+          <div class="program p-2 m-0 mb-1">
+            <div class="program-image">
+              <img
+                src="images/ai_logo.png"
+                alt="artificial_intelligence image"
+                class="img-fluid"
+              />
+            </div>
+            <div class="program-title">
+              <h2 class="text-center">A.I</h2>
+            </div>
+            <div class="program-text">
+              <p>
+                Artificial Intelligence conference will host a full day for
+                technical workshops & discuss the best practices in AI
+                development.
+              </p>
             </div>
           </div>
-          <div class="program col-ms-12 col-md-12 col-lg-3">
-            <div class="card py-3">
-              <div class="card-image-top text-center py-3">
-                <i class="fas fa-database"></i>
-              </div>
-              <div class="card-body">
-                <h3 class="card-title">Data Science</h3>
-                <p class="card-text">
-                  Guest speakers from around the world share their knowledge.
-                </p>
-              </div>
+          <div class="program p-2 m-0 mb-1">
+            <div class="program-image">
+              <h3 class="text-muted text-center">A.P.I</h3>
+            </div>
+            <div class="program-title">
+              <h2 class="text-center">Microservices</h2>
+            </div>
+            <div class="program-text">
+              <p>
+                Come & learn the cutting edge of API Design and Strategy & also
+                technologies to advance your API.
+              </p>
             </div>
           </div>
+          <div class="program p-2 m-0 mb-1">
+            <div class="program-image">
+              <h3 class="text-center">
+                DevOps <br />
+                <span class="text-muted">Summit </span>
+              </h3>
+            </div>
+            <div class="program-title">
+              <h2 class="text-center">DevOps</h2>
+            </div>
+            <div class="program-text">
+              <p>
+                The confluence of technologies between application & software
+                development. This track will cover topics such as performance
+                monitoring, continuous integration, orchestration & analytics.
+              </p>
+            </div>
+          </div>
+          <div class="program p-2 m-0">
+            <div class="program-image">
+              <h3 class="text-center text-muted">JS</h3>
+            </div>
+            <div class="program-title">
+              <h2 class="text-center">JavaScript</h2>
+            </div>
+            <div class="program-text">
+              <p>
+                JavaScript is taking over as both a back-end & front-end
+                development framework for web & mobile applications. Get guidance
+                from experts on the technologies to use.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-12 d-flex justify-content-center align-items-center mt-5 see_more"
+        >
+          <h2 class="text-center">
+            <a href="#" class="more">
+              SEE THE WHOLE PROGRAM
+            </a>
+          </h2>
+          <div class="underline text-center"></div>
+        </div>
+      </div>
+      <div class="guest-speakers-container row m-0 py-4">
+        <div
+          class="main-title col-12 d-flex justify-content-center align-items-center"
+        >
+          <h2 class="guest-speakers-title">Guest Speakers</h2>
+          <div class="underline text-center"></div>
+        </div>
+        <div class="guest-speakers col-12">
+
         </div>
       </div>
     </div>

@@ -1,10 +1,10 @@
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
 }
 
 body {
+  padding: 0;
+  margin: 0;
   background-color: $default-color;
   font-family: Arial, Helvetica, sans-serif;
   .container-fluid {
@@ -17,7 +17,7 @@ body {
     display: flex;
     align-items: center;
     color: $highlight-color;
-    height: calc(100vh - (5.5rem + 2rem));
+    height: calc(100vh);
     overflow-x: hidden;
 
     .fullscreen-video-wrap {
@@ -47,7 +47,7 @@ body {
 
     .hero-content {
       max-width: 900px !important;
-      margin: auto 3rem;
+      margin: auto;
       z-index: 2;
 
       .page-main-title {
@@ -67,35 +67,119 @@ body {
   }
 
   .main-program-container {
-    background: $items-color;
-
-    .main-title {
-      display: flex !important;
-      flex-direction: column !important;
+    @include bg-color;
+    .more {
+      text-decoration: underline;
       color: $default-color;
-      width: 100%;
-
-      .underline {
-        width: 5rem;
-        border-top: 2px solid $highlight-color;
-      }
+      font-size: $mid-text;
+      font-weight: 600;
     }
 
     .main-program {
       .program {
-        .card {
-          background-color: $card-bg;
-          box-shadow: 10px 10px 10px $items-color;
-          
-          .card-image-top i {
-            font-size: 5rem;
+        background: $items-color;
+        color: $default-color;
+        display: flex;
+
+        &-title {
+          width: 30%;
+          h2 {
+            color: $highlight-color;
+            font-size: 0.9rem !important;
+            width: 100% !important;
+          }
+        }
+
+        &-image {
+          width: 20%;
+          line-height: -2;
+          img {
+            width: 100% !important;
           }
 
-          &-title {
+          h3 {
             color: $highlight-color;
+            font-size: 1rem;
+            font-style: oblique;
+          }
+        }
+
+        &-text {
+          width: 50%;
+          font-size: $small-text;
+          color: $default-color;
+        }
+
+        @media screen and (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+
+        .program {
+          &-title {
+            padding-top: 0.5rem;
+            width: 100%;
+
+            h2 {
+              font-family: $oswald;
+              font-size: $large-text !important;
+              padding: 1rem 0;
+            }
+          }
+
+          &-image {
+            width: 100%;
+            height: 6.7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: center;
+
+            img {
+              height: 100% !important;
+            }
+
+            h3 {
+              font-size: $mid-text;
+              text-transform: uppercase;
+              font-weight: 600;
+            }
+          }
+
+          &-text {
+            font-size: 1rem;
+            width: 100%;
           }
         }
       }
+    }
+  }
+
+  .guest-speakers-container {
+    .main-title {
+      .guest-speakers-title {
+        color: $items-color;
+      }
+    }
+  }
+
+  .main-title {
+    display: flex !important;
+    flex-direction: column !important;
+    color: $default-color;
+    width: 100%;
+
+    .underline {
+      width: 5rem;
+      border-top: 2px solid $highlight-color;
     }
   }
 }

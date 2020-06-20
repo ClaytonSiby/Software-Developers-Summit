@@ -1,10 +1,11 @@
 @import "https://fonts.googleapis.com/css2?family=Abel&family=Nanum+Gothic&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Oswald&display=swap";
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box; }
 
 body {
+  padding: 0;
+  margin: 0;
   background-color: #d3d3d3;
   font-family: Arial, Helvetica, sans-serif; }
   body .container-fluid {
@@ -15,7 +16,7 @@ body {
     display: flex;
     align-items: center;
     color: #ec1c24;
-    height: calc(100vh - (5.5rem + 2rem));
+    height: calc(100vh);
     overflow-x: hidden; }
     body .hero .fullscreen-video-wrap {
       position: absolute;
@@ -38,7 +39,7 @@ body {
       opacity: 0.5; }
     body .hero .hero-content {
       max-width: 900px !important;
-      margin: auto 3rem;
+      margin: auto;
       z-index: 2; }
       body .hero .hero-content .page-main-title {
         text-transform: uppercase;
@@ -51,22 +52,80 @@ body {
       color: #272a31;
       font-size: 1.2rem; }
   body .main-program-container {
-    background: #272a31; }
-    body .main-program-container .main-title {
-      display: flex !important;
-      flex-direction: column !important;
+    background: #020024;
+    background: linear-gradient(350deg, #020024 19%, #101819 100%, rgba(8, 8, 14, 0.3225665266) 100%); }
+    body .main-program-container .more {
+      text-decoration: underline;
       color: #d3d3d3;
-      width: 100%; }
-      body .main-program-container .main-title .underline {
-        width: 5rem;
-        border-top: 2px solid #ec1c24; }
-    body .main-program-container .main-program .program .card {
-      background-color: #959698;
-      box-shadow: 10px 10px 10px #272a31; }
-      body .main-program-container .main-program .program .card .card-image-top i {
-        font-size: 5rem; }
-      body .main-program-container .main-program .program .card-title {
-        color: #ec1c24; }
+      font-size: 1.2rem;
+      font-weight: 600; }
+    body .main-program-container .main-program .program {
+      background: #272a31;
+      color: #d3d3d3;
+      display: flex; }
+      body .main-program-container .main-program .program-title {
+        width: 30%; }
+        body .main-program-container .main-program .program-title h2 {
+          color: #ec1c24;
+          font-size: 0.9rem !important;
+          width: 100% !important; }
+      body .main-program-container .main-program .program-image {
+        width: 20%;
+        line-height: -2; }
+        body .main-program-container .main-program .program-image img {
+          width: 100% !important; }
+        body .main-program-container .main-program .program-image h3 {
+          color: #ec1c24;
+          font-size: 1rem;
+          font-style: oblique; }
+      body .main-program-container .main-program .program-text {
+        width: 50%;
+        font-size: 0.8rem;
+        color: #d3d3d3; }
+      @media screen and (min-width: 768px) {
+        body .main-program-container .main-program .program {
+          display: flex;
+          flex-direction: column; } }
+    @media screen and (min-width: 768px) {
+      body .main-program-container .main-program {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem; }
+        body .main-program-container .main-program .program-title {
+          padding-top: 0.5rem;
+          width: 100%; }
+          body .main-program-container .main-program .program-title h2 {
+            font-family: "Oswald", sans-serif;
+            font-size: 1.5rem !important;
+            padding: 1rem 0; }
+        body .main-program-container .main-program .program-image {
+          width: 100%;
+          height: 6.7rem;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          justify-content: center; }
+          body .main-program-container .main-program .program-image img {
+            height: 100% !important; }
+          body .main-program-container .main-program .program-image h3 {
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: 600; }
+        body .main-program-container .main-program .program-text {
+          font-size: 1rem;
+          width: 100%; } }
+  body .guest-speakers-container .main-title .guest-speakers-title {
+    color: #272a31; }
+  body .main-title {
+    display: flex !important;
+    flex-direction: column !important;
+    color: #d3d3d3;
+    width: 100%; }
+    body .main-title .underline {
+      width: 5rem;
+      border-top: 2px solid #ec1c24; }
 
 .social-nav {
   background: items-color !important;
