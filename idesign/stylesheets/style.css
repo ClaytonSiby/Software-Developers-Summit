@@ -114,10 +114,37 @@ body {
             text-transform: uppercase;
             font-weight: 600; }
         body .main-program-container .main-program .program-text {
-          font-size: 1rem;
+          font-size: 0.85rem;
           width: 100%; } }
   body .guest-speakers-container .main-title .guest-speakers-title {
     color: #272a31; }
+  body .guest-speakers-container .guest-speakers .speaker {
+    display: grid;
+    grid-template-columns: 2fr 6fr;
+    grid-gap: 0.5rem;
+    margin: 1rem 0;
+    line-height: 1.2;
+    transition: ease .2s; }
+    body .guest-speakers-container .guest-speakers .speaker-img {
+      border: 2px dotted #272a31;
+      width: 100% !important; }
+    body .guest-speakers-container .guest-speakers .speaker-title {
+      color: #272a31;
+      font-size: 1.2rem;
+      font-weight: 600; }
+    body .guest-speakers-container .guest-speakers .speaker-description {
+      font-size: .85rem;
+      font-family: "Nanum Gothic", sans-serif; }
+    body .guest-speakers-container .guest-speakers .speaker small {
+      color: #ec1c24;
+      font-style: oblique; }
+    body .guest-speakers-container .guest-speakers .speaker:hover {
+      transform: scale(1.01, 1);
+      cursor: pointer; }
+  @media screen and (min-width: 768px) {
+    body .guest-speakers-container .guest-speakers {
+      max-width: 900px;
+      margin: 0 auto; } }
   body .main-title {
     display: flex !important;
     flex-direction: column !important;

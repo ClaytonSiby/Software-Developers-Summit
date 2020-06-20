@@ -155,7 +155,7 @@ body {
           }
 
           &-text {
-            font-size: 1rem;
+            font-size: 0.85rem;
             width: 100%;
           }
         }
@@ -167,6 +167,48 @@ body {
     .main-title {
       .guest-speakers-title {
         color: $items-color;
+      }
+    }
+
+    .guest-speakers {
+      .speaker {
+        display: grid;
+        grid-template-columns: 2fr 6fr;
+        grid-gap: 0.5rem;
+        margin: 1rem 0;
+        line-height: 1.2;
+        transition: ease .2s;
+
+        &-img {
+          border: 2px dotted $items-color;
+          width: 100% !important;
+        }
+
+        &-title {
+          color: $items-color;
+          font-size: $mid-text;
+          font-weight: 600;
+        }
+
+        &-description {
+          font-size: .85rem;
+          font-family: $main-font;
+        }
+
+        small {
+          color: $highlight-color;
+          font-style: oblique;
+        }
+
+        &:hover {
+          transform: scale(1.01, 1);
+          cursor: pointer;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 900px;
+        margin: 0 auto;
       }
     }
   }
