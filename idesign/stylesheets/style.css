@@ -15,6 +15,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: #ec1c24;
     height: calc(100vh);
     overflow-x: hidden; }
@@ -38,13 +39,12 @@ body {
       z-index: 1;
       opacity: 0.5; }
     body .hero .hero-content {
-      max-width: 900px !important;
+      max-width: 100% !important;
       margin: auto;
       z-index: 2; }
       body .hero .hero-content .page-main-title {
         text-transform: uppercase;
         opacity: 0.7;
-        font-size: 4rem;
         font-weight: bolder;
         font-style: unset; }
     body .hero-text {
@@ -124,7 +124,7 @@ body {
     grid-gap: 0.5rem;
     margin: 1rem 0;
     line-height: 1.2;
-    transition: ease .2s; }
+    transition: ease 0.2s; }
     body .guest-speakers-container .guest-speakers .speaker-img {
       border: 2px dotted #272a31;
       width: 100% !important; }
@@ -133,7 +133,7 @@ body {
       font-size: 1.2rem;
       font-weight: 600; }
     body .guest-speakers-container .guest-speakers .speaker-description {
-      font-size: .85rem;
+      font-size: 0.85rem;
       font-family: "Nanum Gothic", sans-serif; }
     body .guest-speakers-container .guest-speakers .speaker small {
       color: #ec1c24;
@@ -153,6 +153,23 @@ body {
     body .main-title .underline {
       width: 5rem;
       border-top: 2px solid #ec1c24; }
+  body .footer .top-footer {
+    background: #020024;
+    background: linear-gradient(350deg, #020024 19%, #101819 100%, rgba(8, 8, 14, 0.3225665266) 100%); }
+    body .footer .top-footer .partner {
+      font-weight: bold;
+      font-size: 1.2rem; }
+      body .footer .top-footer .partner-link {
+        color: #d3d3d3; }
+    body .footer .top-footer .google {
+      font-weight: 300; }
+    body .footer .top-footer .red {
+      font-style: oblique;
+      color: #ec1c24; }
+  body .footer .bottom-footer {
+    background: #fff; }
+    body .footer .bottom-footer .logo-div img {
+      height: 4rem; }
 
 .social-nav {
   background: items-color !important;

@@ -16,6 +16,7 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: center;
     color: $highlight-color;
     height: calc(100vh);
     overflow-x: hidden;
@@ -46,14 +47,13 @@ body {
     }
 
     .hero-content {
-      max-width: 900px !important;
+      max-width: 100% !important;
       margin: auto;
       z-index: 2;
 
       .page-main-title {
         text-transform: uppercase;
         opacity: 0.7;
-        font-size: 4rem;
         font-weight: bolder;
         font-style: unset;
       }
@@ -177,7 +177,7 @@ body {
         grid-gap: 0.5rem;
         margin: 1rem 0;
         line-height: 1.2;
-        transition: ease .2s;
+        transition: ease 0.2s;
 
         &-img {
           border: 2px dotted $items-color;
@@ -191,7 +191,7 @@ body {
         }
 
         &-description {
-          font-size: .85rem;
+          font-size: 0.85rem;
           font-family: $main-font;
         }
 
@@ -222,6 +222,40 @@ body {
     .underline {
       width: 5rem;
       border-top: 2px solid $highlight-color;
+    }
+  }
+
+  .footer {
+    .top-footer {
+      @include bg-color;
+
+      .partner {
+        font-weight: bold;
+        font-size: $mid-text;
+
+        &-link {
+          color: $default-color;
+        }
+      }
+
+      .google {
+        font-weight: 300;
+      }
+
+      .red {
+        font-style: oblique;
+        color: $highlight-color;
+      }
+    }
+
+    .bottom-footer {
+      background: $light-color;
+
+      .logo-div {
+        img {
+          height: 4rem;
+        }
+      }
     }
   }
 }
