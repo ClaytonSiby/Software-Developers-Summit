@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="/idesign/stylesheets/style.css" />
   </head>
   <body>
-    <div class="container-fluid p-0" id="main-wrapper">
+    <div class="p-0" id="main-wrapper">
       <nav
         class="navbar navbar-expand-sm justify-content-end social-nav bg-dark navbar-dark"
       >
@@ -84,18 +84,25 @@
       <div class="hero p-0 m-0 border-top">
         <div class="fullscreen-video-wrap">
           <video autoplay muted loop id="heroVideo" class="hero-Video">
-            <source src="videos/background_vid.mp4" type="video/mp4" />
+            <source src="videos/bg-vid2.mp4" type="video/mp4" />
           </video>
         </div>
         <div class="hero-overlay"></div>
-        <div class="hero-content">
-          <h1 class="page-main-title">Software Developers Summit 2020</h1>
+        <div class="hero-content px-3">
+          <h1 class="page-main-title">
+            Software Developers <br />
+            Summit 2020
+          </h1>
           <h4>Nov 29 - Dec 2 (16hr)</h4>
           <p>@Montecasino Bolevad Business Center.</p>
-          <p class="hero-text py-3 px-1 mt-4 border">
+          <p class="hero-text py-3 px-3 mt-4 border">
             Join the world's biggest tech community as we discuss the future of
             Software Development.
           </p>
+
+          <button class="btn btn-sm btn-danger register-btn my-2">
+            <a href="#" class="text-light td-none">REGISTER</a>
+          </button>
         </div>
       </div>
       <div class="main-program-container row m-0 py-4">
@@ -301,45 +308,68 @@
           </div>
         </div>
       </div>
-      <footer class="footer mt-4 px-0 mx-0">
-        <div class="top-footer row py-3 px-0 mx-0">
-          <div
-            class="main-title col-12 d-flex justify-content-center align-items-center"
-          >
-            <h2 class="footer-title">Partner</h2>
-            <div class="underline text-center"></div>
-          </div>
-          <div
-            class="col-12 pt-5 p-2 partner-container"
-          >
-            <span class="partner devweek d-block"
-              ><a href="#" class="partner-link p-4"
-                >Dev<span class="red">WEEK</span></a
-              ></span
-            >
-            <span class="partner google d-block"
-              ><a href="#" class="partner-link p-4">Google</a></span
-            >
-            <span class="partner w3 d-block"
-              ><a href="#" class="partner-link p-4">w3schools</a></span
-            >
-            <span class="partner bp d-block"
-              ><a href="#" class="partner-link p-4">Bootstrap</a></span
-            >
+
+      <footer class="main-footer">
+        <div class="dark-bg p-4">
+          <div class="top-footer p-3">
+            <ul class="footer-links navbar-nav">
+              <li class="list-title my-3">Conference</li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Microservices</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">JavaScript Development</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">DevOps</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Data & Databases</a>
+              </li>
+            </ul>
+            <ul class="footer-links navbar-nav">
+              <li class="list-title my-3">Speakers</li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Book for Speaker</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">One on One Meetings</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Reservations</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Speaker Contribution</a>
+              </li>
+            </ul>
+            <ul class="footer-links navbar-nav">
+              <li class="list-title my-3">Membership</li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Become a Member</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Contribute</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Donate</a>
+              </li>
+            </ul>
+            <div class="social-icons my-3">
+              <span><a href="#" class="social-icon px-2"><i class="fab fa-facebook-f"></i></a></span>
+              <span><a href="#" class="social-icon px-2"><i class="fab fa-twitter"></i></a></span>
+              <span><a href="#" class="social-icon px-2"><i class="fab fa-linkedin-in"></i></a></span>
+              <span><a href="#" class="social-icon px-2"><i class="fas fa-envelope"></i></a></span>
+            </div>
           </div>
         </div>
-        <div class="bottom-footer row pt-5 px-0 m-0">
-          <div class="logo-div col-6 d-flex justify-content-end align-items-center py-3">
-             <img src="images/devs_summit_logo.PNG" alt="logo image">
-          </div>
-          <div class="copywright col-6 d-flex align-items-center">
-            <p>&copy;2020 copywright. Project by Clayton Siby.</p>
-          </div>
+        <div class="light-bg d-flex justify-content-center align-items-center p-4">
+          <p class="copywright">
+            &copy; 2020 Software Developers Summit. All rights reserved.
+            <a href="#" class="policy px-1">Privacy Policy</a> <a href="#" class="terms px-1">Terms of Use</a>
+          </p>
         </div>
       </footer>
     </div>
-
-    <div style="height: 400px;"></div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

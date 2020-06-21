@@ -7,3 +7,9 @@
     rgba(8, 8, 14, 0.3225665266106442) 100%
   );
 }
+
+@mixin bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

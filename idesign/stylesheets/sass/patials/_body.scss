@@ -47,22 +47,35 @@ body {
     }
 
     .hero-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
       max-width: 100% !important;
       margin: auto;
       z-index: 2;
 
       .page-main-title {
-        text-transform: uppercase;
-        opacity: 0.7;
-        font-weight: bolder;
-        font-style: unset;
+        color: $highlight-color;
+        font-size: 1.7rem;
+        font-weight: 600;
+        opacity: 0.8;
+
+        @media screen and (min-width: 768px) {
+          font-size: 4rem;
+          font-weight: 900;
+        }
       }
     }
 
     &-text {
       width: 90%;
       color: $items-color;
-      font-size: $mid-text;
+      font-size: $small-text;
+
+      @media screen and (min-width: 768px) {
+        font-size: $mid-text;
+      }
     }
   }
 
@@ -224,38 +237,59 @@ body {
       border-top: 2px solid $highlight-color;
     }
   }
+}
 
-  .footer {
+.main-footer {
+  .dark-bg {
+    background-color: $items-color;
     .top-footer {
-      @include bg-color;
-
-      .partner {
-        font-weight: bold;
-        font-size: $mid-text;
-
-        &-link {
+      .footer-links {
+        .list-title {
+          font-weight: 500;
           color: $default-color;
+          font-size: 1.2rem;
+          width: 6.5rem;
+          border-bottom: 1px solid $highlight-color;
+        }
+
+        .footer-item {
+          .footer-link {
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: $card-bg;
+          }
         }
       }
-
-      .google {
-        font-weight: 300;
+      .social-icons {
+        .social-icon {
+          color: $default-color;
+          font-size: $mid-text;
+        }
       }
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1000px;
+        margin: auto;
+      }
+    }
+  }
 
-      .red {
-        font-style: oblique;
-        color: $highlight-color;
+  .light-bg {
+    .copywright {
+      font-size: 0.9rem;
+      .change {
+        color: $highlight-color !important;
+      }
+      .policy {
+        border-right: 1px solid $items-color;
       }
     }
 
-    .bottom-footer {
-      background: $light-color;
-
-      .logo-div {
-        img {
-          height: 4rem;
-        }
-      }
+    @media screen and (min-width: 767px) {
+      max-width: 1000px;
+      margin: auto;
     }
   }
 }
