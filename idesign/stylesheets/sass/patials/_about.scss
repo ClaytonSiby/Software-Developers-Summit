@@ -1,4 +1,6 @@
 .about-body {
+  background-color: $items-color;
+  color: $default-color;
   .about-hero {
     height: 100%;
     max-width: 900px;
@@ -66,5 +68,9 @@
         }
       }
     }
+  }
+
+  .main-footer {
+    background-color: $light-color;
   }
 }
