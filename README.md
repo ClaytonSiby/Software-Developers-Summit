@@ -1,15 +1,13 @@
-# Responsive-Web-Design-_The-NewsWeek
-This project is a replica of the [NewsWeek](https://www.newsweek.com/) website. It is a part of the microverse curriculum mainly focusing on mobile first responsive design.
+# Software Developers Global Summit 2020
+Annual conference for developers around the world.
 
 ## Project Design:
 
-* large/desktop screen view
+![screenshot](idesign/images/full-page-screenshot.png)
 
-![screenshot](idesign/images/original_screenshot.PNG) 
+This project was developed following the [CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) design by [Cindy Shin](https://www.behance.net/adagio07). It is a Microverse capestone project that I developed using bootstrap and a few more technologies (mentioned below). 
 
-This project was designed using bootstrap 4 classes for component layouts. I also implemented the bootstrap 4 grid system to responsively position content on the page on all screen sizes. Sass CSS acted as an alternative way to add more style on the elements & beauty on the site.
-
-Please take note, this project has no functionality to it. It was designed as a means of strengthening mobile first design skills. And also, it is a microverse.inc mandatory project.
+Software developers Global Summit 2020 is a conference held at the end of each year. The site consist of three (Home, About, & Tickets) pages which do not have any functionality yet. The goal is to follow the given ([CC Global Summit 2015](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)) design, & personalise the content to anything relating to conferencing. You can see the project live demo (link provided below). Each of the pages on the site has got the mobile screen version (max-width ==> 768px) & desktop version (min-width ==> 768px).
 
 ## Built With
 
@@ -34,12 +32,11 @@ Please take note, this project has no functionality to it. It was designed as a 
 - Linkedin: [linkedin](https://www.linkedin.com/in/clayton-siby-48a8a0183/)
 - claytonsiby@gmail.com
 
-
 # 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ClaytonSiby/Responsive-Web-Design-_The-NewsWeek/issues).
+Feel free to check the [issues page](https://github.com/ClaytonSiby/Software-Developers-Summit/issues).
 
 ## Please show your support
 
@@ -47,12 +44,11 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to The NewsWeek Site
-- Odin Project
+- Hat tip to [Cindy Shin in Behance](https://www.behance.net/adagio07) 
 - StackOverflow
 - W3Schools.com
 - getbootstrap.com
 
 # 📝 License
 
-This project is [MIT](github.com/ClaytonSiby) licensed.
+This project is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.

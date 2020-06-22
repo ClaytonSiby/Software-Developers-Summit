@@ -286,6 +286,15 @@ body {
           color: $default-color;
           font-size: $mid-text;
         }
+
+        button {
+          background-color: $highlight-color;
+
+          a {
+            text-decoration: none;
+            color: $default-color;
+          }
+        }
       }
       @media screen and (min-width: 768px) {
         display: grid;
