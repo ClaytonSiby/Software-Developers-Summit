@@ -18,6 +18,8 @@
     flex-direction: column;
 
     button {
+      box-shadow: 10px 10px 10px gray;
+
       &:not(.color-change) {
         font-size: 0.95rem;
       }
@@ -42,7 +44,7 @@
           color: $highlight-color;
         }
         td {
-          font-size: .5rem;
+          font-size: 0.5rem;
 
           @media screen and (min-width: 430px) {
             font-size: $small-text;
@@ -58,6 +60,7 @@
     flex-direction: column;
 
     button {
+      box-shadow: 10px 10px 10px gray;
       &:not(.color-change) {
         font-size: 0.95rem;
       }
@@ -83,6 +86,11 @@
           }
         }
       }
+    }
+  }
+
+  .schedule-wrapper {
+    .schedule-title {
     }
   }
 }
