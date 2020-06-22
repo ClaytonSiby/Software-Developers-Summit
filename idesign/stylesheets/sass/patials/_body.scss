@@ -263,6 +263,14 @@ body {
 .main-footer {
   .dark-bg {
     background-color: $items-color;
+    button {
+      background-color: $highlight-color;
+
+      .tickets-link {
+        text-decoration: none;
+        color: $default-color;
+      }
+    }
     .top-footer {
       .footer-links {
         .list-title {
@@ -285,15 +293,6 @@ body {
         .social-icon {
           color: $default-color;
           font-size: $mid-text;
-        }
-
-        button {
-          background-color: $highlight-color;
-
-          a {
-            text-decoration: none;
-            color: $default-color;
-          }
         }
       }
       @media screen and (min-width: 768px) {

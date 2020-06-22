@@ -39,10 +39,25 @@
         font-size: $mid-text;
       }
     }
+
+    .questions {
+      .more {
+        font-size: 0.9rem;
+        .link-color {
+          color: $items-color;
+          font-size: $small-text;
+        }
+      }
+    }
   }
 
   .past-events {
     .past-events-wrapper {
+      .learn-more {
+        a {
+          color: $default-color;
+        }
+      }
       .event-container {
         .events-text {
           color: $items-color;
@@ -54,7 +69,7 @@
         }
 
         .blockquote p {
-          font-size: .9rem !important;
+          font-size: 0.9rem !important;
           font-style: italic;
 
           @media screen and (min-width: 768px) {
