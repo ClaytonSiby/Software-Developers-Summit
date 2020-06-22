@@ -47,7 +47,7 @@ body {
     align-items: center;
     justify-content: center;
     color: #ec1c24;
-    height: calc(100vh);
+    height: calc(100vh - 5.5rem);
     overflow-x: hidden; }
     body .hero .fullscreen-video-wrap {
       position: absolute;
@@ -71,7 +71,6 @@ body {
     body .hero .hero-content {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: flex-start;
       max-width: 100% !important;
       margin: auto;
@@ -241,8 +240,9 @@ body {
     margin: auto; } }
 
 .about-body {
-  background-color: #272a31;
-  color: #d3d3d3; }
+  background-color: #fff; }
+  .about-body nav {
+    box-shadow: 3px 1px 5px gray; }
   .about-body .about-hero {
     height: 100%;
     max-width: 900px;
@@ -270,6 +270,7 @@ body {
           text-align: left;
           font-size: 1.2rem; } }
   .about-body .past-events .past-events-wrapper .event-container .events-text {
+    color: #272a31;
     font-size: 0.8rem; }
     @media screen and (min-width: 768px) {
       .about-body .past-events .past-events-wrapper .event-container .events-text {
@@ -289,5 +290,44 @@ body {
       margin: auto; } }
   .about-body .main-footer {
     background-color: #fff; }
+
+.tickets-main-wrapper .tickets-title {
+  display: flex !important;
+  flex-direction: column !important;
+  color: #272a31;
+  width: 100%; }
+  .tickets-main-wrapper .tickets-title .underline {
+    padding: 0;
+    border-top: 2px solid #ec1c24;
+    width: 5rem; }
+.tickets-main-wrapper .ticket-section {
+  max-width: 1100px;
+  margin: auto;
+  flex-direction: column; }
+  .tickets-main-wrapper .ticket-section button .color-change {
+    font-weight: 600;
+    color: #ec1c24; }
+  .tickets-main-wrapper .ticket-section table thead th {
+    font-size: medium;
+    font-weight: 400;
+    color: #ec1c24; }
+  .tickets-main-wrapper .ticket-section table tbody th {
+    font-size: small; }
+  .tickets-main-wrapper .ticket-section table tbody td {
+    font-size: 0.8rem; }
+.tickets-main-wrapper .meal-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  flex-direction: column; }
+  .tickets-main-wrapper .meal-wrapper button .color-change {
+    font-weight: 600;
+    color: #ec1c24; }
+  .tickets-main-wrapper .meal-wrapper .meal-selection .select-guide p {
+    width: 3rem;
+    font-weight: 600;
+    color: #272a31;
+    border-bottom: 1px solid #ec1c24; }
+  .tickets-main-wrapper .meal-wrapper .meal-selection .form-check-inline .form-check-label {
+    font-size: .9rem; }
 
 /*# sourceMappingURL=style.css.map */

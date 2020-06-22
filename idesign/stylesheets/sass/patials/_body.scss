@@ -18,7 +18,7 @@ body {
     align-items: center;
     justify-content: center;
     color: $highlight-color;
-    height: calc(100vh);
+    height: calc(100vh - 5.5rem);
     overflow-x: hidden;
 
     .fullscreen-video-wrap {
@@ -49,7 +49,6 @@ body {
     .hero-content {
       display: flex;
       flex-direction: column;
-      justify-content: center;
       align-items: flex-start;
       max-width: 100% !important;
       margin: auto;

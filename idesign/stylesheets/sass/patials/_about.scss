@@ -1,6 +1,9 @@
 .about-body {
-  background-color: $items-color;
-  color: $default-color;
+  background-color: $light-color;
+
+  nav {
+    box-shadow: 3px 1px 5px gray;
+  }
   .about-hero {
     height: 100%;
     max-width: 900px;
@@ -42,6 +45,7 @@
     .past-events-wrapper {
       .event-container {
         .events-text {
+          color: $items-color;
           font-size: $small-text;
 
           @media screen and (min-width: 768px) {

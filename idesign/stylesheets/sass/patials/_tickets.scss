@@ -1,0 +1,75 @@
+.tickets-main-wrapper {
+  .tickets-title {
+    display: flex !important;
+    flex-direction: column !important;
+    color: $items-color;
+    width: 100%;
+
+    .underline {
+      padding: 0;
+      border-top: 2px solid $highlight-color;
+      width: 5rem;
+    }
+  }
+
+  .ticket-section {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+
+    button {
+      .color-change {
+        font-weight: 600;
+        color: $highlight-color;
+      }
+    }
+
+    table {
+      thead {
+        th {
+          font-size: medium;
+          font-weight: 400;
+          color: $highlight-color;
+        }
+      }
+      tbody {
+        th {
+          font-size: small;
+        }
+        td {
+          font-size: $small-text;
+        }
+      }
+    }
+  }
+
+  .meal-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column;
+
+    button {
+      .color-change {
+        font-weight: 600;
+        color: $highlight-color;
+      }
+    }
+
+    .meal-selection {
+      .select-guide {
+        p {
+          width: 3rem;
+          font-weight: 600;
+          color: $items-color;
+          border-bottom: 1px solid $highlight-color;
+        }
+      }
+
+      .form-check-inline {
+        .form-check-label {
+          font-size: .9rem;
+        }
+      }
+    }
+  }
+}
