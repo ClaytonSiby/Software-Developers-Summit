@@ -89,8 +89,45 @@
     }
 
     .schedule-wrapper {
+      flex-direction: column;
+      max-width: 1100px;
+      margin: auto;
+
       .schedule-title {
+        display: flex !important;
+        flex-direction: column !important;
         color: $items-color;
+        width: 100%;
+
+        h2 {
+          color: $items-color;
+        }
+
+        .underline {
+          padding: 0;
+          border-top: 2px solid $highlight-color;
+          width: 5rem;
+        }
+      }
+
+      .schedule-buttons {
+        .highlight {
+          background: $highlight-color;
+          color: $default-color;
+        }
+      }
+
+      .join-button {
+        button {
+          box-shadow: 5px 5px 5px gray;
+          background: $highlight-color;
+          border-radius: 0.5rem;
+          .join-link {
+            text-decoration: none;
+            color: $default-color;
+            font-size: $mid-text;
+          }
+        }
       }
     }
   }

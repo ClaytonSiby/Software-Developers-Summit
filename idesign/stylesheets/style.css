@@ -289,8 +289,32 @@ body {
       font-weight: 600; }
     .tickets-body .tickets-main-wrapper .meal-wrapper .card .card-body .form-check-inline .form-check-label {
       font-size: 0.8rem; }
-  .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title {
-    color: #272a31; }
+  .tickets-body .tickets-main-wrapper .schedule-wrapper {
+    flex-direction: column;
+    max-width: 1100px;
+    margin: auto; }
+    .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title {
+      display: flex !important;
+      flex-direction: column !important;
+      color: #272a31;
+      width: 100%; }
+      .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title h2 {
+        color: #272a31; }
+      .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title .underline {
+        padding: 0;
+        border-top: 2px solid #ec1c24;
+        width: 5rem; }
+    .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-buttons .highlight {
+      background: #ec1c24;
+      color: #d3d3d3; }
+    .tickets-body .tickets-main-wrapper .schedule-wrapper .join-button button {
+      box-shadow: 5px 5px 5px gray;
+      background: #ec1c24;
+      border-radius: 0.5rem; }
+      .tickets-body .tickets-main-wrapper .schedule-wrapper .join-button button .join-link {
+        text-decoration: none;
+        color: #d3d3d3;
+        font-size: 1.2rem; }
 
 .about-body {
   background-color: #fff; }
