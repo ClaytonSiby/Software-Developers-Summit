@@ -304,7 +304,10 @@ body {
   max-width: 1100px;
   margin: auto;
   flex-direction: column; }
+  .tickets-main-wrapper .ticket-section button:not(.color-change) {
+    font-size: 0.95rem; }
   .tickets-main-wrapper .ticket-section button .color-change {
+    font-size: 1rem;
     font-weight: 600;
     color: #ec1c24; }
   .tickets-main-wrapper .ticket-section table thead th {
@@ -312,22 +315,27 @@ body {
     font-weight: 400;
     color: #ec1c24; }
   .tickets-main-wrapper .ticket-section table tbody th {
-    font-size: small; }
+    font-size: small;
+    color: #ec1c24; }
   .tickets-main-wrapper .ticket-section table tbody td {
-    font-size: 0.8rem; }
+    font-size: .5rem; }
+    @media screen and (min-width: 430px) {
+      .tickets-main-wrapper .ticket-section table tbody td {
+        font-size: 0.8rem; } }
 .tickets-main-wrapper .meal-wrapper {
   max-width: 1100px;
   margin: auto;
   flex-direction: column; }
+  .tickets-main-wrapper .meal-wrapper button:not(.color-change) {
+    font-size: 0.95rem; }
   .tickets-main-wrapper .meal-wrapper button .color-change {
+    font-size: 1rem;
     font-weight: 600;
     color: #ec1c24; }
-  .tickets-main-wrapper .meal-wrapper .meal-selection .select-guide p {
-    width: 3rem;
-    font-weight: 600;
-    color: #272a31;
-    border-bottom: 1px solid #ec1c24; }
-  .tickets-main-wrapper .meal-wrapper .meal-selection .form-check-inline .form-check-label {
-    font-size: .9rem; }
+  .tickets-main-wrapper .meal-wrapper .card .card-header p {
+    color: #ec1c24;
+    font-weight: 600; }
+  .tickets-main-wrapper .meal-wrapper .card .card-body .form-check-inline .form-check-label {
+    font-size: 0.8rem; }
 
 /*# sourceMappingURL=style.css.map */

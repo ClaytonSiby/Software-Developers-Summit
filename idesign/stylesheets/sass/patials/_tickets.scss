@@ -18,7 +18,11 @@
     flex-direction: column;
 
     button {
+      &:not(.color-change) {
+        font-size: 0.95rem;
+      }
       .color-change {
+        font-size: 1rem;
         font-weight: 600;
         color: $highlight-color;
       }
@@ -35,9 +39,14 @@
       tbody {
         th {
           font-size: small;
+          color: $highlight-color;
         }
         td {
-          font-size: $small-text;
+          font-size: .5rem;
+
+          @media screen and (min-width: 430px) {
+            font-size: $small-text;
+          }
         }
       }
     }
@@ -49,25 +58,29 @@
     flex-direction: column;
 
     button {
+      &:not(.color-change) {
+        font-size: 0.95rem;
+      }
       .color-change {
+        font-size: 1rem;
         font-weight: 600;
         color: $highlight-color;
       }
     }
 
-    .meal-selection {
-      .select-guide {
+    .card {
+      .card-header {
         p {
-          width: 3rem;
+          color: $highlight-color;
           font-weight: 600;
-          color: $items-color;
-          border-bottom: 1px solid $highlight-color;
         }
       }
 
-      .form-check-inline {
-        .form-check-label {
-          font-size: .9rem;
+      .card-body {
+        .form-check-inline {
+          .form-check-label {
+            font-size: $small-text;
+          }
         }
       }
     }
