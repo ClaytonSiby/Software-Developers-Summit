@@ -239,56 +239,58 @@ body {
     max-width: 1000px;
     margin: auto; } }
 
-.tickets-main-wrapper .tickets-title {
-  display: flex !important;
-  flex-direction: column !important;
-  color: #272a31;
-  width: 100%; }
-  .tickets-main-wrapper .tickets-title .underline {
-    padding: 0;
-    border-top: 2px solid #ec1c24;
-    width: 5rem; }
-.tickets-main-wrapper .ticket-section {
-  max-width: 1100px;
-  margin: auto;
-  flex-direction: column; }
-  .tickets-main-wrapper .ticket-section button {
-    box-shadow: 10px 10px 9px gray;
-    font-size: 0.95rem; }
-    .tickets-main-wrapper .ticket-section button .color-change {
-      font-size: 1rem;
-      font-weight: 600;
+.tickets-body {
+  background-color: #d3d3d3; }
+  .tickets-body .tickets-main-wrapper .tickets-title {
+    display: flex !important;
+    flex-direction: column !important;
+    color: #272a31;
+    width: 100%; }
+    .tickets-body .tickets-main-wrapper .tickets-title .underline {
+      padding: 0;
+      border-top: 2px solid #ec1c24;
+      width: 5rem; }
+  .tickets-body .tickets-main-wrapper .ticket-section {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column; }
+    .tickets-body .tickets-main-wrapper .ticket-section button {
+      box-shadow: 10px 10px 9px gray;
+      font-size: 0.95rem; }
+      .tickets-body .tickets-main-wrapper .ticket-section button .color-change {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #ec1c24; }
+    .tickets-body .tickets-main-wrapper .ticket-section table thead th {
+      font-size: medium;
+      font-weight: 400;
       color: #ec1c24; }
-  .tickets-main-wrapper .ticket-section table thead th {
-    font-size: medium;
-    font-weight: 400;
-    color: #ec1c24; }
-  .tickets-main-wrapper .ticket-section table tbody th {
-    font-size: small;
-    color: #ec1c24; }
-  .tickets-main-wrapper .ticket-section table tbody td {
-    font-size: 0.5rem; }
-    @media screen and (min-width: 430px) {
-      .tickets-main-wrapper .ticket-section table tbody td {
-        font-size: 0.8rem; } }
-.tickets-main-wrapper .meal-wrapper {
-  max-width: 1100px;
-  margin: auto;
-  flex-direction: column; }
-  .tickets-main-wrapper .meal-wrapper button {
-    box-shadow: 10px 10px 10px gray;
-    font-size: 0.95rem; }
-    .tickets-main-wrapper .meal-wrapper button .color-change {
-      font-size: 1rem;
-      font-weight: 600;
+    .tickets-body .tickets-main-wrapper .ticket-section table tbody th {
+      font-size: small;
       color: #ec1c24; }
-  .tickets-main-wrapper .meal-wrapper .card .card-header p {
-    color: #ec1c24;
-    font-weight: 600; }
-  .tickets-main-wrapper .meal-wrapper .card .card-body .form-check-inline .form-check-label {
-    font-size: 0.8rem; }
-.tickets-main-wrapper .schedule-wrapper .schedule-title {
-  color: #272a31; }
+    .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
+      font-size: 0.5rem; }
+      @media screen and (min-width: 430px) {
+        .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
+          font-size: 0.8rem; } }
+  .tickets-body .tickets-main-wrapper .meal-wrapper {
+    max-width: 1100px;
+    margin: auto;
+    flex-direction: column; }
+    .tickets-body .tickets-main-wrapper .meal-wrapper button {
+      box-shadow: 10px 10px 10px gray;
+      font-size: 0.95rem; }
+      .tickets-body .tickets-main-wrapper .meal-wrapper button .color-change {
+        font-size: 1rem;
+        font-weight: 600;
+        color: #ec1c24; }
+    .tickets-body .tickets-main-wrapper .meal-wrapper .card .card-header p {
+      color: #ec1c24;
+      font-weight: 600; }
+    .tickets-body .tickets-main-wrapper .meal-wrapper .card .card-body .form-check-inline .form-check-label {
+      font-size: 0.8rem; }
+  .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title {
+    color: #272a31; }
 
 .about-body {
   background-color: #fff; }
