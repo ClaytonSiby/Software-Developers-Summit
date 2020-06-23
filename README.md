@@ -11,7 +11,7 @@ Software developers Global Summit 2020 is a conference held at the end of each y
 
 ## Built With
 
-- CSS, HTML, JavaScript
+- CSS, HTML
 - Sass, Bootstrap 4
 - Stylelint validator
 
