@@ -263,6 +263,18 @@ body .main-program-container .main-program .program:hover {
   }
 }
 
+body .main-title {
+  display: flex !important;
+  flex-direction: column !important;
+  color: #d3d3d3;
+  width: 100%;
+}
+
+body .main-title .underline {
+  width: 5rem;
+  border-top: 2px solid #ec1c24;
+}
+
 body .guest-speakers-container .main-title .guest-speakers-title {
   color: #272a31;
 }
@@ -307,18 +319,6 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
     max-width: 900px;
     margin: 0 auto;
   }
-}
-
-body .main-title {
-  display: flex !important;
-  flex-direction: column !important;
-  color: #d3d3d3;
-  width: 100%;
-}
-
-body .main-title .underline {
-  width: 5rem;
-  border-top: 2px solid #ec1c24;
 }
 
 .main-footer .dark-bg {

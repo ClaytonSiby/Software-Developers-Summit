@@ -205,6 +205,18 @@ body {
     }
   }
 
+  .main-title {
+    display: flex !important;
+    flex-direction: column !important;
+    color: $default-color;
+    width: 100%;
+
+    .underline {
+      width: 5rem;
+      border-top: 2px solid $highlight-color;
+    }
+  }
+
   .guest-speakers-container {
     .main-title {
       .guest-speakers-title {
@@ -252,18 +264,6 @@ body {
         max-width: 900px;
         margin: 0 auto;
       }
-    }
-  }
-
-  .main-title {
-    display: flex !important;
-    flex-direction: column !important;
-    color: $default-color;
-    width: 100%;
-
-    .underline {
-      width: 5rem;
-      border-top: 2px solid $highlight-color;
     }
   }
 }
