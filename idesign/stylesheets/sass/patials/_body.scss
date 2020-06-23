@@ -7,9 +7,10 @@ body {
   margin: 0;
   background-color: $default-color;
   font-family: Arial, Helvetica, sans-serif;
+
   .container-fluid {
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
   }
 
   .hero {
@@ -65,11 +66,15 @@ body {
           font-weight: 900;
         }
       }
+
+      .venue-date {
+        color: $default-color;
+      }
     }
 
     &-text {
       width: 90%;
-      color: $default-color !important;
+      color: $highlight-color !important;
       font-size: $small-text;
 
       @media screen and (min-width: 768px) {
