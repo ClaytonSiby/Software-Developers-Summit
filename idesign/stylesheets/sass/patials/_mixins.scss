@@ -1,6 +1,6 @@
 @mixin bg-color {
   background: rgb(2, 0, 36);
-  background: linear-gradient(350deg, rgba(2, 0, 36, 1) 19%, rgba(16, 24, 25, 1) 100%,rgba(8, 8, 14, 0.3225665266106442) 100%);
+  background: linear-gradient(350deg, rgba(2, 0, 36, 1) 19%, rgba(16, 24, 25, 1) 100%, rgba(8, 8, 14, 0.3225665266106442) 100%);
 }
 
 @mixin bg-image {
