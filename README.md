@@ -21,7 +21,7 @@ Software developers Global Summit 2020 is a conference held at the end of each y
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ClaytonSiby/Software-Developers-Summit/software-developers-summit/idesign/index.html)
+[Live Demo Link](https://raw.githack.com/ClaytonSiby/Software-Developers-Summit/software-developers-summit/idesign/index.html )
 
 ## Author
 
