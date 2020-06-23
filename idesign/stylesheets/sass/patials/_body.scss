@@ -85,6 +85,7 @@ body {
 
   .main-program-container {
     @include bg-color;
+
     .more {
       text-decoration: underline;
       color: $default-color;
@@ -102,6 +103,7 @@ body {
 
         &-title {
           width: 30%;
+
           h2 {
             color: $highlight-color;
             font-size: 0.9rem !important;
@@ -112,6 +114,7 @@ body {
         &-image {
           width: 20%;
           line-height: -2;
+
           img {
             width: 100% !important;
           }
@@ -268,6 +271,7 @@ body {
 .main-footer {
   .dark-bg {
     background-color: $items-color;
+
     button {
       background-color: $highlight-color;
 
@@ -276,6 +280,7 @@ body {
         color: $default-color;
       }
     }
+
     .top-footer {
       .footer-links {
         .list-title {
@@ -294,12 +299,14 @@ body {
           }
         }
       }
+
       .social-icons {
         .social-icon {
           color: $default-color;
           font-size: $mid-text;
         }
       }
+
       @media screen and (min-width: 768px) {
         display: grid;
         grid-gap: 2rem;
@@ -313,9 +320,11 @@ body {
   .light-bg {
     .copywright {
       font-size: 0.9rem;
+
       .change {
         color: $highlight-color !important;
       }
+
       .policy {
         border-right: 1px solid $items-color;
       }

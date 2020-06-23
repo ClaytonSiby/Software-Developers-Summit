@@ -6,6 +6,7 @@
   nav {
     box-shadow: 3px 1px 5px gray;
   }
+
   .about-hero {
     height: 100%;
     max-width: 900px;
@@ -45,6 +46,7 @@
     .questions {
       .more {
         font-size: 0.9rem;
+
         .link-color {
           color: $items-color;
           font-size: $small-text;
@@ -54,13 +56,13 @@
   }
 
   .past-events {
-
     .past-events-wrapper {
       .learn-more {
         a {
           color: $default-color;
         }
       }
+
       .event-container {
         .events-text {
           color: $items-color;
@@ -84,6 +86,7 @@
           width: 100% !important;
           height: 20rem;
         }
+
         @media screen and (min-width: 768px) {
           max-width: 1100px;
           margin: auto;
