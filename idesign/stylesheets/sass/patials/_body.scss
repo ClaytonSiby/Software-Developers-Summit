@@ -9,7 +9,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 
   .container-fluid {
-    max-width: 1400px !important;
+    max-width: 1700px !important;
     margin: 0 auto !important;
   }
 
@@ -84,7 +84,7 @@ body {
   }
 
   .main-program-container {
-    @include bg-color;
+    background: $items-color;
 
     .more {
       text-decoration: underline;
@@ -95,8 +95,8 @@ body {
 
     .main-program {
       .program {
-        background: $items-color;
-        color: $default-color;
+        background: $default-color;
+        color: $items-color;
         display: flex;
         transition: ease 0.2s;
         cursor: pointer;
@@ -137,7 +137,7 @@ body {
 
           a {
             text-decoration: none;
-            color: $default-color;
+            color: $items-color;
           }
         }
 

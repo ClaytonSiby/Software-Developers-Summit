@@ -39,11 +39,11 @@
 }
 
 .main-nav .navbar-nav .active {
-  color: #ec1c24;
+  color: #ee523c;
 }
 
 .main-nav .navbar-nav .join {
-  border: 3px solid #ec1c24;
+  border: 3px solid #ee523c;
 }
 
 * {
@@ -53,12 +53,12 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body .container-fluid {
-  max-width: 1400px !important;
+  max-width: 1700px !important;
   margin: 0 auto !important;
 }
 
@@ -67,7 +67,7 @@ body .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ec1c24;
+  color: #ee523c;
   height: calc(100vh - 5.5rem);
   overflow-x: hidden;
 }
@@ -107,7 +107,7 @@ body .hero .hero-content {
 }
 
 body .hero .hero-content .page-main-title {
-  color: #ec1c24;
+  color: #ee523c;
   font-size: 1.7rem;
   font-weight: 600;
   opacity: 0.8;
@@ -121,12 +121,12 @@ body .hero .hero-content .page-main-title {
 }
 
 body .hero .hero-content .venue-date {
-  color: #f7f7f7;
+  color: #f2f2f2;
 }
 
 body .hero-text {
   width: 90%;
-  color: #ec1c24 !important;
+  color: #ee523c !important;
   font-size: 0.8rem;
 }
 
@@ -137,20 +137,19 @@ body .hero-text {
 }
 
 body .main-program-container {
-  background: #020024;
-  background: linear-gradient(350deg, #020024 19%, #101819 100%, rgba(8, 8, 14, 0.3225665266) 100%);
+  background: #272a31;
 }
 
 body .main-program-container .more {
   text-decoration: underline;
-  color: #f7f7f7;
+  color: #f2f2f2;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 body .main-program-container .main-program .program {
-  background: #272a31;
-  color: #f7f7f7;
+  background: #f2f2f2;
+  color: #272a31;
   display: flex;
   transition: ease 0.2s;
   cursor: pointer;
@@ -164,7 +163,7 @@ body .main-program-container .main-program .program-title {
 }
 
 body .main-program-container .main-program .program-title h2 {
-  color: #ec1c24;
+  color: #ee523c;
   font-size: 0.9rem;
   width: 100%;
 }
@@ -193,7 +192,7 @@ body .main-program-container .main-program .program-text {
 
 body .main-program-container .main-program .program-text a {
   text-decoration: none;
-  color: #f7f7f7;
+  color: #272a31;
 }
 
 body .main-program-container .main-program .program:hover {
@@ -250,13 +249,13 @@ body .main-program-container .main-program .program:hover {
 body .main-title {
   display: flex;
   flex-direction: column;
-  color: #f7f7f7;
+  color: #f2f2f2;
   width: 100%;
 }
 
 body .main-title .underline {
   width: 5rem;
-  border-top: 2px solid #ec1c24;
+  border-top: 2px solid #ee523c;
 }
 
 body .guest-speakers-container .main-title .guest-speakers-title {
@@ -289,7 +288,7 @@ body .guest-speakers-container .guest-speakers .speaker-description {
 }
 
 body .guest-speakers-container .guest-speakers .speaker small {
-  color: #ec1c24;
+  color: #ee523c;
   font-style: oblique;
 }
 
@@ -310,27 +309,27 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .main-footer .dark-bg .tickets-link {
-  background-color: #ec1c24;
+  background-color: #ee523c;
   text-decoration: none;
-  color: #f7f7f7;
+  color: #f2f2f2;
 }
 
 .main-footer .dark-bg .top-footer .footer-links .list-title {
   font-weight: 500;
-  color: #f7f7f7;
+  color: #f2f2f2;
   font-size: 1.2rem;
   width: 6.5rem;
-  border-bottom: 1px solid #ec1c24;
+  border-bottom: 1px solid #ee523c;
 }
 
 .main-footer .dark-bg .top-footer .footer-links .footer-item .footer-link {
   font-size: 0.9rem;
   text-decoration: none;
-  color: #959698;
+  color: #b1b1b4;
 }
 
 .main-footer .dark-bg .top-footer .social-icons .social-icon {
-  color: #f7f7f7;
+  color: #f2f2f2;
   font-size: 1.2rem;
 }
 
@@ -362,7 +361,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body {
   padding: 0;
   margin: 0;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
 }
 
 .tickets-body .tickets-main-wrapper .tickets-title {
@@ -374,7 +373,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 
 .tickets-body .tickets-main-wrapper .tickets-title .underline {
   padding: 0;
-  border-top: 2px solid #ec1c24;
+  border-top: 2px solid #ee523c;
   width: 5rem;
 }
 
@@ -392,18 +391,18 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body .tickets-main-wrapper .ticket-section button .color-change {
   font-size: 1rem;
   font-weight: 600;
-  color: #ec1c24;
+  color: #ee523c;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table thead th {
   font-size: medium;
   font-weight: 400;
-  color: #ec1c24;
+  color: #ee523c;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table tbody th {
   font-size: small;
-  color: #ec1c24;
+  color: #ee523c;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
@@ -430,11 +429,11 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body .tickets-main-wrapper .meal-wrapper button .color-change {
   font-size: 1rem;
   font-weight: 600;
-  color: #ec1c24;
+  color: #ee523c;
 }
 
 .tickets-body .tickets-main-wrapper .meal-wrapper .card .card-header p {
-  color: #ec1c24;
+  color: #ee523c;
   font-weight: 600;
 }
 
@@ -461,28 +460,28 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title .underline {
   padding: 0;
-  border-top: 2px solid #ec1c24;
+  border-top: 2px solid #ee523c;
   width: 5rem;
 }
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-buttons .highlight {
   background: #272a31;
-  color: #f7f7f7;
+  color: #f2f2f2;
 }
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .join-button .join-link {
   box-shadow: 5px 5px 5px gray;
-  background: #ec1c24;
+  background: #ee523c;
   border-radius: 0.5rem;
   text-decoration: none;
-  color: #f7f7f7;
+  color: #f2f2f2;
   font-size: 1.2rem;
 }
 
 .about-body {
   margin: 0;
   padding: 0;
-  background-color: #f7f7f7;
+  background-color: #f2f2f2;
 }
 
 .about-body nav {
@@ -504,7 +503,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .about-body .about-hero .about-title {
-  color: #ec1c24;
+  color: #ee523c;
   font-size: 1.5rem;
 }
 
@@ -540,7 +539,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .about-body .past-events .past-events-wrapper .learn-more a {
-  color: #f7f7f7;
+  color: #f2f2f2;
 }
 
 .about-body .past-events .past-events-wrapper .event-container .events-text {
