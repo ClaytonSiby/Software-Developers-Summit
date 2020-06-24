@@ -5,8 +5,8 @@
 
   .tickets-main-wrapper {
     .tickets-title {
-      display: flex !important;
-      flex-direction: column !important;
+      display: flex;
+      flex-direction: column;
       color: $items-color;
       width: 100%;
 
@@ -99,8 +99,8 @@
       margin: auto;
 
       .schedule-title {
-        display: flex !important;
-        flex-direction: column !important;
+        display: flex;
+        flex-direction: column;
         color: $items-color;
         width: 100%;
 
@@ -123,16 +123,13 @@
       }
 
       .join-button {
-        button {
+        .join-link {
           box-shadow: 5px 5px 5px gray;
           background: $highlight-color;
           border-radius: 0.5rem;
-
-          .join-link {
-            text-decoration: none;
-            color: $default-color;
-            font-size: $mid-text;
-          }
+          text-decoration: none;
+          color: $default-color;
+          font-size: $mid-text;
         }
       }
     }
