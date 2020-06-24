@@ -39,11 +39,11 @@
 }
 
 .main-nav .navbar-nav .active {
-  color: #ee523c;
+  color: #ec5242;
 }
 
 .main-nav .navbar-nav .join {
-  border: 3px solid #ee523c;
+  border: 3px solid #ec5242;
 }
 
 * {
@@ -53,7 +53,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #f2f2f2;
+  background-color: #d3d3d3;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -67,7 +67,7 @@ body .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ee523c;
+  color: #ec5242;
   height: calc(100vh - 5.5rem);
   overflow-x: hidden;
 }
@@ -107,7 +107,7 @@ body .hero .hero-content {
 }
 
 body .hero .hero-content .page-main-title {
-  color: #ee523c;
+  color: #ec5242;
   font-size: 1.7rem;
   font-weight: 600;
   opacity: 0.8;
@@ -121,12 +121,12 @@ body .hero .hero-content .page-main-title {
 }
 
 body .hero .hero-content .venue-date {
-  color: #f2f2f2;
+  color: #d3d3d3;
 }
 
 body .hero-text {
   width: 90%;
-  color: #ee523c !important;
+  color: #ec5242 !important;
   font-size: 0.8rem;
 }
 
@@ -142,13 +142,13 @@ body .main-program-container {
 
 body .main-program-container .more {
   text-decoration: underline;
-  color: #f2f2f2;
+  color: #d3d3d3;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 body .main-program-container .main-program .program {
-  background: #f2f2f2;
+  background: #d3d3d3;
   color: #272a31;
   display: flex;
   transition: ease 0.2s;
@@ -163,7 +163,7 @@ body .main-program-container .main-program .program-title {
 }
 
 body .main-program-container .main-program .program-title h2 {
-  color: #ee523c;
+  color: #ec5242;
   font-size: 0.9rem;
   width: 100%;
 }
@@ -249,13 +249,13 @@ body .main-program-container .main-program .program:hover {
 body .main-title {
   display: flex;
   flex-direction: column;
-  color: #f2f2f2;
+  color: #d3d3d3;
   width: 100%;
 }
 
 body .main-title .underline {
   width: 5rem;
-  border-top: 2px solid #ee523c;
+  border-top: 2px solid #ec5242;
 }
 
 body .guest-speakers-container .main-title .guest-speakers-title {
@@ -288,7 +288,7 @@ body .guest-speakers-container .guest-speakers .speaker-description {
 }
 
 body .guest-speakers-container .guest-speakers .speaker small {
-  color: #ee523c;
+  color: #ec5242;
   font-style: oblique;
 }
 
@@ -309,17 +309,17 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .main-footer .dark-bg .tickets-link {
-  background-color: #ee523c;
+  background-color: #ec5242;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #d3d3d3;
 }
 
 .main-footer .dark-bg .top-footer .footer-links .list-title {
   font-weight: 500;
-  color: #f2f2f2;
+  color: #d3d3d3;
   font-size: 1.2rem;
   width: 6.5rem;
-  border-bottom: 1px solid #ee523c;
+  border-bottom: 1px solid #ec5242;
 }
 
 .main-footer .dark-bg .top-footer .footer-links .footer-item .footer-link {
@@ -329,7 +329,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .main-footer .dark-bg .top-footer .social-icons .social-icon {
-  color: #f2f2f2;
+  color: #d3d3d3;
   font-size: 1.2rem;
 }
 
@@ -361,7 +361,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body {
   padding: 0;
   margin: 0;
-  background-color: #f2f2f2;
+  background-color: #d3d3d3;
 }
 
 .tickets-body .tickets-main-wrapper .tickets-title {
@@ -373,7 +373,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 
 .tickets-body .tickets-main-wrapper .tickets-title .underline {
   padding: 0;
-  border-top: 2px solid #ee523c;
+  border-top: 2px solid #ec5242;
   width: 5rem;
 }
 
@@ -391,18 +391,18 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body .tickets-main-wrapper .ticket-section button .color-change {
   font-size: 1rem;
   font-weight: 600;
-  color: #ee523c;
+  color: #ec5242;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table thead th {
   font-size: medium;
   font-weight: 400;
-  color: #ee523c;
+  color: #ec5242;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table tbody th {
   font-size: small;
-  color: #ee523c;
+  color: #ec5242;
 }
 
 .tickets-body .tickets-main-wrapper .ticket-section table tbody td {
@@ -429,11 +429,11 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 .tickets-body .tickets-main-wrapper .meal-wrapper button .color-change {
   font-size: 1rem;
   font-weight: 600;
-  color: #ee523c;
+  color: #ec5242;
 }
 
 .tickets-body .tickets-main-wrapper .meal-wrapper .card .card-header p {
-  color: #ee523c;
+  color: #ec5242;
   font-weight: 600;
 }
 
@@ -460,28 +460,28 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-title .underline {
   padding: 0;
-  border-top: 2px solid #ee523c;
+  border-top: 2px solid #ec5242;
   width: 5rem;
 }
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .schedule-buttons .highlight {
   background: #272a31;
-  color: #f2f2f2;
+  color: #d3d3d3;
 }
 
 .tickets-body .tickets-main-wrapper .schedule-wrapper .join-button .join-link {
   box-shadow: 5px 5px 5px gray;
-  background: #ee523c;
+  background: #ec5242;
   border-radius: 0.5rem;
   text-decoration: none;
-  color: #f2f2f2;
+  color: #d3d3d3;
   font-size: 1.2rem;
 }
 
 .about-body {
   margin: 0;
   padding: 0;
-  background-color: #f2f2f2;
+  background-color: #d3d3d3;
 }
 
 .about-body nav {
@@ -503,7 +503,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .about-body .about-hero .about-title {
-  color: #ee523c;
+  color: #ec5242;
   font-size: 1.5rem;
 }
 
@@ -539,7 +539,7 @@ body .guest-speakers-container .guest-speakers .speaker:hover {
 }
 
 .about-body .past-events .past-events-wrapper .learn-more a {
-  color: #f2f2f2;
+  color: #d3d3d3;
 }
 
 .about-body .past-events .past-events-wrapper .event-container .events-text {
