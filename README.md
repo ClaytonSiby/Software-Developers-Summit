@@ -24,7 +24,7 @@ To get this project on your machine & contribute to the project, you can run <co
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ClaytonSiby/Software-Developers-Summit/software-developers-summit/idesign/index.html )
+[Live Demo Link](https://raw.githack.com/ClaytonSiby/Software-Developers-Summit/software-developers-summit/idesign/index.html)
 
 ## Author
 
