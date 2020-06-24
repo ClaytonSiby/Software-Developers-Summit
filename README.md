@@ -15,6 +15,9 @@ Software developers Global Summit 2020 is a conference held at the end of each y
 - Sass, Bootstrap 4
 - Stylelint validator
 
+## SetUp
+To get this project on your machine & contribute to the project, you can run <code>git clone https://github.com/ClaytonSiby/Software-Developers-Summit.git</code> on the command line and create a feature branch to your directory both locally and remotely.
+
 ## Tools Used:
 
 - Visual Studio Code
