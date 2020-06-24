@@ -1,0 +1,137 @@
+.tickets-body {
+  padding: 0;
+  margin: 0;
+  background-color: $default-color;
+
+  .tickets-main-wrapper {
+    .tickets-title {
+      display: flex;
+      flex-direction: column;
+      color: $items-color;
+      width: 100%;
+
+      .underline {
+        padding: 0;
+        border-top: 2px solid $highlight-color;
+        width: 5rem;
+      }
+    }
+
+    .ticket-section {
+      max-width: 1100px;
+      margin: auto;
+      flex-direction: column;
+
+      button {
+        box-shadow: 10px 10px 9px gray;
+        font-size: 0.95rem;
+
+        .color-change {
+          font-size: 1rem;
+          font-weight: 600;
+          color: $highlight-color;
+        }
+      }
+
+      table {
+        thead {
+          th {
+            font-size: medium;
+            font-weight: 400;
+            color: $highlight-color;
+          }
+        }
+
+        tbody {
+          th {
+            font-size: small;
+            color: $highlight-color;
+          }
+
+          td {
+            font-size: 0.5rem;
+
+            @media screen and (min-width: 430px) {
+              font-size: $small-text;
+            }
+          }
+        }
+      }
+    }
+
+    .meal-wrapper {
+      max-width: 1100px;
+      margin: auto;
+      flex-direction: column;
+
+      button {
+        box-shadow: 10px 10px 10px gray;
+        font-size: 0.95rem;
+
+        .color-change {
+          font-size: 1rem;
+          font-weight: 600;
+          color: $highlight-color;
+        }
+      }
+
+      .card {
+        .card-header {
+          p {
+            color: $highlight-color;
+            font-weight: 600;
+          }
+        }
+
+        .card-body {
+          .form-check-inline {
+            .form-check-label {
+              font-size: $small-text;
+            }
+          }
+        }
+      }
+    }
+
+    .schedule-wrapper {
+      flex-direction: column;
+      max-width: 1100px;
+      margin: auto;
+
+      .schedule-title {
+        display: flex;
+        flex-direction: column;
+        color: $items-color;
+        width: 100%;
+
+        h2 {
+          color: $items-color;
+        }
+
+        .underline {
+          padding: 0;
+          border-top: 2px solid $highlight-color;
+          width: 5rem;
+        }
+      }
+
+      .schedule-buttons {
+        .highlight {
+          background: $items-color;
+          color: $default-color;
+        }
+      }
+
+      .join-button {
+        .join-link {
+          box-shadow: 5px 5px 5px gray;
+          background: $highlight-color;
+          border-radius: 0.5rem;
+          text-decoration: none;
+          color: $default-color;
+          font-size: $mid-text;
+        }
+      }
+    }
+  }
+}

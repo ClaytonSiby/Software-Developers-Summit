@@ -1,0 +1,323 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: $default-color;
+  font-family: Arial, Helvetica, sans-serif;
+
+  .container-fluid {
+    max-width: 1700px !important;
+    margin: 0 auto !important;
+  }
+
+  .hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $highlight-color;
+    height: calc(100vh - 5.5rem);
+    overflow-x: hidden;
+
+    .fullscreen-video-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      video {
+        min-width: 100%;
+        min-height: 100%;
+      }
+    }
+
+    .hero-overlay {
+      height: 100%;
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: $items-color;
+      z-index: 1;
+      opacity: 0.5;
+    }
+
+    .hero-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      max-width: 100% !important;
+      margin: auto;
+      z-index: 2;
+
+      .page-main-title {
+        color: $highlight-color;
+        font-size: 1.7rem;
+        font-weight: 600;
+        opacity: 0.8;
+
+        @media screen and (min-width: 768px) {
+          font-size: 4rem;
+          font-weight: 900;
+        }
+      }
+
+      .venue-date {
+        color: $default-color;
+      }
+
+      .td-none {
+        background-color: $highlight-color;
+      }
+    }
+
+    &-text {
+      width: 90%;
+      color: $highlight-color !important;
+      font-size: $small-text;
+
+      @media screen and (min-width: 768px) {
+        font-size: $mid-text;
+      }
+    }
+  }
+
+  .main-program-container {
+    background: $items-color;
+
+    .more {
+      text-decoration: underline;
+      color: $default-color;
+      font-size: $mid-text;
+      font-weight: 600;
+    }
+
+    .main-program {
+      .program {
+        background: $default-color;
+        color: $items-color;
+        display: flex;
+        transition: ease 0.2s;
+        cursor: pointer;
+
+        &-title {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 30%;
+
+          h2 {
+            color: $highlight-color;
+            font-size: 0.9rem;
+            width: 100%;
+          }
+        }
+
+        &-image {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 20%;
+          line-height: 0.5;
+
+          a i {
+            text-decoration: none;
+            font-size: 3rem;
+          }
+
+          a {
+            text-decoration: none;
+          }
+        }
+
+        &-text {
+          width: 50%;
+          font-size: $small-text;
+
+          a {
+            text-decoration: none;
+            color: $items-color;
+          }
+        }
+
+        &:hover {
+          transform: scale(1.05);
+        }
+
+        @media screen and (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 1100px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 0.5rem;
+
+        .program {
+          &-title {
+            padding-top: 0.5rem;
+            width: 100%;
+
+            h2 {
+              font-family: $oswald;
+              font-size: $large-text;
+              padding: 1rem 0;
+            }
+          }
+
+          &-image {
+            width: 100%;
+            height: 6.7rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            h3 {
+              font-size: $mid-text;
+              text-transform: uppercase;
+              font-weight: 600;
+            }
+          }
+
+          &-text {
+            font-size: 0.85rem;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .main-title {
+    display: flex;
+    flex-direction: column;
+    color: $default-color;
+    width: 100%;
+
+    .underline {
+      width: 5rem;
+      border-top: 2px solid $highlight-color;
+    }
+  }
+
+  .guest-speakers-container {
+    .main-title {
+      .guest-speakers-title {
+        color: $items-color;
+      }
+    }
+
+    .guest-speakers {
+      .speaker {
+        display: grid;
+        grid-template-columns: 2fr 6fr;
+        grid-gap: 0.5rem;
+        margin: 1rem 0;
+        line-height: 1.2;
+        transition: ease 0.2s;
+
+        &-img {
+          border: 2px dotted $items-color;
+          width: 100%;
+        }
+
+        &-title {
+          color: $items-color;
+          font-size: $mid-text;
+          font-weight: 600;
+        }
+
+        &-description {
+          font-size: 0.85rem;
+          font-family: $main-font;
+        }
+
+        small {
+          color: $highlight-color;
+          font-style: oblique;
+        }
+
+        &:hover {
+          transform: scale(1.01, 1);
+          cursor: pointer;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        max-width: 900px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.main-footer {
+  .dark-bg {
+    background-color: $items-color;
+
+    .tickets-link {
+      background-color: $highlight-color;
+      text-decoration: none;
+      color: $default-color;
+    }
+
+    .top-footer {
+      .footer-links {
+        .list-title {
+          font-weight: 500;
+          color: $default-color;
+          font-size: 1.2rem;
+          width: 6.5rem;
+          border-bottom: 1px solid $highlight-color;
+        }
+
+        .footer-item {
+          .footer-link {
+            font-size: 0.9rem;
+            text-decoration: none;
+            color: $card-bg;
+          }
+        }
+      }
+
+      .social-icons {
+        .social-icon {
+          color: $default-color;
+          font-size: $mid-text;
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        display: grid;
+        grid-gap: 2rem;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 1000px;
+        margin: auto;
+      }
+    }
+  }
+
+  .light-bg {
+    .copywright {
+      font-size: 0.9rem;
+
+      .policy {
+        border-right: 1px solid $items-color;
+      }
+    }
+
+    @media screen and (min-width: 767px) {
+      max-width: 1000px;
+      margin: auto;
+    }
+  }
+}

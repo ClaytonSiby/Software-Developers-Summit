@@ -1,0 +1,101 @@
+.about-body {
+  margin: 0;
+  padding: 0;
+  background-color: $default-color;
+
+  nav {
+    box-shadow: 3px 1px 5px gray;
+  }
+
+  .about-hero {
+    height: 100%;
+    max-width: 900px;
+    margin: auto 1rem;
+    color: $items-color;
+
+    @media screen and (min-width: 768px) {
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .about-title {
+      color: $highlight-color;
+      font-size: $large-text;
+
+      @media screen and (min-width: 768px) {
+        .the-title {
+          font-size: 3rem;
+          font-weight: 900;
+        }
+      }
+    }
+
+    .about-text {
+      background: $light-color;
+      line-height: 2;
+      text-align: center;
+      border-radius: 0.6rem;
+      font-size: $small-text;
+
+      @media screen and (min-width: 768px) {
+        text-align: left;
+        font-size: $mid-text;
+      }
+    }
+
+    .questions {
+      .more {
+        font-size: 0.9rem;
+
+        .link-color {
+          color: $items-color;
+          font-size: $small-text;
+        }
+      }
+    }
+  }
+
+  .past-events {
+    .past-events-wrapper {
+      .learn-more {
+        a {
+          color: $default-color;
+        }
+      }
+
+      .event-container {
+        .events-text {
+          color: $items-color;
+          font-size: $small-text;
+
+          @media screen and (min-width: 768px) {
+            font-size: 1.1rem;
+          }
+        }
+
+        .blockquote p {
+          font-size: 0.9rem !important;
+          font-style: italic;
+
+          @media screen and (min-width: 768px) {
+            font-size: 1rem !important;
+          }
+        }
+
+        .video-embed iframe {
+          width: 100% !important;
+          height: 20rem;
+        }
+
+        @media screen and (min-width: 768px) {
+          max-width: 1100px;
+          margin: auto;
+        }
+      }
+    }
+  }
+
+  .main-footer {
+    background-color: $light-color;
+  }
+}

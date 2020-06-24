@@ -1,0 +1,44 @@
+.social-nav {
+  background: $items-color;
+  height: 2rem;
+
+  .nav-link {
+    color: $light-color;
+    font-family: $main-font;
+    font-size: $mid-text;
+    padding: 0 0.7rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
+.main-nav {
+  background: $light-color;
+
+  .navbar-brand {
+    display: block;
+    height: 5.5rem;
+
+    img {
+      height: 100%;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      padding: 0.5rem 1.5rem;
+      font-weight: 600;
+      color: $items-color;
+    }
+
+    .active {
+      color: $highlight-color;
+    }
+
+    .join {
+      border: 3px solid $highlight-color;
+    }
+  }
+}
