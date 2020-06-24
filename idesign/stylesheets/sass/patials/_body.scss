@@ -70,6 +70,10 @@ body {
       .venue-date {
         color: $default-color;
       }
+
+      .td-none {
+        background-color: $highlight-color;
+      }
     }
 
     &-text {

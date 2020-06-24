@@ -124,6 +124,10 @@ body .hero .hero-content .venue-date {
   color: #d3d3d3;
 }
 
+body .hero .hero-content .td-none {
+  background-color: #ec5242;
+}
+
 body .hero-text {
   width: 90%;
   color: #ec5242 !important;
